@@ -1,0 +1,7 @@
+! Harry ! Fuck The Git Did'nt Set The User for me ! It Waste My time ! NO!
+1.Just Open .git File 
+2.fix config
+3.add [user]
+	name =
+	email =
+

@@ -15,7 +15,7 @@
 						<div class="cube-scroll-list-wrapper" style="min-height: 0px;">
 							<div data-v-d4d5c34c="" data-v-69c87bfd="" class="affairs-detail">
 								<div data-v-d4d5c34c="" class="user-info">
-									<div data-v-d4d5c34c="" class="header bg-purple">请假条-已销假 </div>
+									<div data-v-d4d5c34c="" class="header bg-red">请假条-已销假 </div>
 									<div data-v-d4d5c34c="" class="body">
 										<p data-v-d4d5c34c=""><span data-v-d4d5c34c="" >姓名：</span><span data-v-d4d5c34c="" id="username"></p>
 										<p data-v-d4d5c34c=""><span data-v-d4d5c34c="" >学院：</span><span data-v-d4d5c34c="" id="xueyuan"></span></p>
@@ -26,11 +26,11 @@
 										<p data-v-d4d5c34c=""><span data-v-d4d5c34c="" >去向地址：</span><span data-v-d4d5c34c="" id="quxiang"></span></p>
 									</div>
 								</div>
-								<p style="font-size: 60px; font-family:'微软雅黑'; font-weight:normal; color: red;">已销假，不可出校</p>
+								<!--<p style="font-size: 60px; font-family:'微软雅黑'; font-weight:normal; color: red;">已销假，不可出校</p>-->
 								<br/>
 								<br/>
 								<br/>
-								<p style="font-size: 60px; font-family:'微软雅黑'; font-weight:normal; color: red;">只可在1小时内进校</p>
+								<!--<p style="font-size: 60px; font-family:'微软雅黑'; font-weight:normal; color: red;">只可在1小时内进校</p>-->
 								<div data-v-d4d5c34c="" class="operate"><button data-v-d4d5c34c="" type="button" icon="" _type="button" class="dx-btn dx-btn_primary" style="background-color: #8E9397;"><!---->返回</button></div>
 								<div data-v-d4d5c34c="" class="spinner">
 									<div data-v-d4d5c34c="" class="bg-purple"></div>
@@ -65,8 +65,8 @@
 		document.getElementById('username').innerText = list[0].replace("-", " ");
 		document.getElementById('xueyuan').innerText = list[1];
 		document.getElementById('zhuanye').innerText = list[2];
-		document.getElementById('time1').innerText = date.toLocaleDateString() + " " + list[3].split("%")[0] + ":00";
-		document.getElementById('time2').innerText = date.toLocaleDateString() + " " + list[4].split("%")[0] + ":00";
+		document.getElementById('time1').innerText = date.toLocaleDateString() + " " + list[3].split("%")[0] + ":00";//时钟样式
+		document.getElementById('time2').innerText = date.toLocaleDateString() + " " + list[4].split("%")[0] + ":00";//分钟样式
 		document.getElementById('liyou').innerText = list[5];
 		document.getElementById('quxiang').innerText = list[6];
 	</script>

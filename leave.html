@@ -24,8 +24,7 @@
 										<p data-v-d4d5c34c=""><span data-v-d4d5c34c="">开始时间：</span><span data-v-d4d5c34c="" id = "time1"></span></p>
 										<p data-v-d4d5c34c=""><span data-v-d4d5c34c="">结束时间：</span><span data-v-d4d5c34c="" id = "time2"></span></p>
 										<p data-v-d4d5c34c=""><span data-v-d4d5c34c="">请假理由：</span><span data-v-d4d5c34c="" id = "liyou"></span></p>
-										<p data-v-d4d5c34c=""><span data-v-d4d5c34c="">去向地址：
-										</span><span data-v-d4d5c34c="" id = "quxiang"></span></p>
+										<p data-v-d4d5c34c=""><span data-v-d4d5c34c="">去向地址：</span><span data-v-d4d5c34c="" id = "quxiang"></span></p>
 									</div>
 								</div>
 								<div data-v-d4d5c34c="" class="operate">
@@ -72,8 +71,8 @@
 		document.getElementById('username').innerText = list[0].replace("-", " ");
 		document.getElementById('xueyuan').innerText = list[1];
 		document.getElementById('zhuanye').innerText = list[2];
-		document.getElementById('time1').innerText =date.toLocaleDateString()+"-"+list[3].split("%")[0]+":00";
-		document.getElementById('time2').innerText =date.toLocaleDateString()+"-"+list[4].split("%")[0]+":00";
+		document.getElementById('time1').innerText =date.toLocaleDateString() + " " + list[3].split("%")[0] +":00";
+		document.getElementById('time2').innerText =date.toLocaleDateString() + " " + list[4].split("%")[0] +":00";
 		document.getElementById('liyou').innerText = list[5];
 		document.getElementById('quxiang').innerText = "广西壮族自治区/桂林市/七星区/桂林市内";
 		

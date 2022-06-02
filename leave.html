@@ -72,8 +72,8 @@
 		document.getElementById('username').innerText = list[0].replace("-", " ");
 		document.getElementById('xueyuan').innerText = list[1];
 		document.getElementById('zhuanye').innerText = list[2];
-		document.getElementById('time1').innerText = date.getFullYear() + date.getMonth()+ date.getDate()+list[3].split("%")[0];//时钟样式
-		document.getElementById('time2').innerText = date.getFullYear() + date.getMonth()+ date.getDate()+list[4].split("%")[0];//分钟样式
+		document.getElementById('time1').innerText =date.toLocaleDateString()+"-"+list[3].split("%")[0]+":00";
+		document.getElementById('time2').innerText =date.toLocaleDateString()+"-"+list[4].split("%")[0]+":00";
 		document.getElementById('liyou').innerText = list[5];
 		document.getElementById('quxiang').innerText = "广西壮族自治区/桂林市/七星区/桂林市内";
 		

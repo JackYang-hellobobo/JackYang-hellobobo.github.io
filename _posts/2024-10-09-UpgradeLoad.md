@@ -29,4 +29,4 @@ PCB制板验证+示波器+直流源+万用表+电桥+频谱仪+网络分析仪+�
 
 ---
 
-[![Star This Project](https://img.shields.io/github/stars/kitian616/jekyll-TeXt-theme.svg?label=Stars&style=social)](https://github.com/kitian616/jekyll-TeXt-theme/)
+[![Star This Project](https://img.shields.io/github/stars/kitian616/jekyll-TeXt-theme.svg?label=Stars&style=social)](https://github.com/JackYang-hellobobo/JackYang-hellobobo.github.io/)

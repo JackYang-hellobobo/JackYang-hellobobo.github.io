@@ -14,4 +14,4 @@ tags: 教程
 
 ---
 
-[![Star This Project](https://img.shields.io/github/stars/kitian616/jekyll-TeXt-theme.svg?label=Stars&style=social)](https://github.com/kitian616/jekyll-TeXt-theme/)
+[![Star This Project](https://img.shields.io/github/stars/kitian616/jekyll-TeXt-theme.svg?label=Stars&style=social)](https://github.com/JackYang-hellobobo/JackYang-hellobobo.github.io/)
